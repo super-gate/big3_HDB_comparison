@@ -60,10 +60,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smhan/Documents/HDB_supergate/test
+CMAKE_SOURCE_DIR = /home/smhan/Documents/big3_HDB_comparison/test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smhan/Documents/HDB_supergate/test/build
+CMAKE_BINARY_DIR = /home/smhan/Documents/big3_HDB_comparison/test/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -90,9 +90,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smhan/Documents/HDB_supergate/test/build/CMakeFiles /home/smhan/Documents/HDB_supergate/test/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smhan/Documents/big3_HDB_comparison/test/build/CMakeFiles /home/smhan/Documents/big3_HDB_comparison/test/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smhan/Documents/HDB_supergate/test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smhan/Documents/big3_HDB_comparison/test/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -132,53 +132,53 @@ HDB_supergate_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDB_supergate_test.dir/build.make CMakeFiles/HDB_supergate_test.dir/build
 .PHONY : HDB_supergate_test/fast
 
-home/smhan/Documents/HDB_supergate/comp_lib/comparator.o: home/smhan/Documents/HDB_supergate/comp_lib/comparator.cpp.o
-.PHONY : home/smhan/Documents/HDB_supergate/comp_lib/comparator.o
+home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.o: home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.cpp.o
+.PHONY : home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.o
 
 # target to build an object file
-home/smhan/Documents/HDB_supergate/comp_lib/comparator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDB_supergate_test.dir/build.make CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/HDB_supergate/comp_lib/comparator.cpp.o
-.PHONY : home/smhan/Documents/HDB_supergate/comp_lib/comparator.cpp.o
+home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDB_supergate_test.dir/build.make CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.cpp.o
+.PHONY : home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.cpp.o
 
-home/smhan/Documents/HDB_supergate/comp_lib/comparator.i: home/smhan/Documents/HDB_supergate/comp_lib/comparator.cpp.i
-.PHONY : home/smhan/Documents/HDB_supergate/comp_lib/comparator.i
+home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.i: home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.cpp.i
+.PHONY : home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.i
 
 # target to preprocess a source file
-home/smhan/Documents/HDB_supergate/comp_lib/comparator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDB_supergate_test.dir/build.make CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/HDB_supergate/comp_lib/comparator.cpp.i
-.PHONY : home/smhan/Documents/HDB_supergate/comp_lib/comparator.cpp.i
+home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDB_supergate_test.dir/build.make CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.cpp.i
+.PHONY : home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.cpp.i
 
-home/smhan/Documents/HDB_supergate/comp_lib/comparator.s: home/smhan/Documents/HDB_supergate/comp_lib/comparator.cpp.s
-.PHONY : home/smhan/Documents/HDB_supergate/comp_lib/comparator.s
+home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.s: home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.cpp.s
+.PHONY : home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.s
 
 # target to generate assembly for a file
-home/smhan/Documents/HDB_supergate/comp_lib/comparator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDB_supergate_test.dir/build.make CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/HDB_supergate/comp_lib/comparator.cpp.s
-.PHONY : home/smhan/Documents/HDB_supergate/comp_lib/comparator.cpp.s
+home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDB_supergate_test.dir/build.make CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.cpp.s
+.PHONY : home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.cpp.s
 
-home/smhan/Documents/HDB_supergate/comp_lib/tools.o: home/smhan/Documents/HDB_supergate/comp_lib/tools.cpp.o
-.PHONY : home/smhan/Documents/HDB_supergate/comp_lib/tools.o
+home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.o: home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.cpp.o
+.PHONY : home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.o
 
 # target to build an object file
-home/smhan/Documents/HDB_supergate/comp_lib/tools.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDB_supergate_test.dir/build.make CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/HDB_supergate/comp_lib/tools.cpp.o
-.PHONY : home/smhan/Documents/HDB_supergate/comp_lib/tools.cpp.o
+home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDB_supergate_test.dir/build.make CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.cpp.o
+.PHONY : home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.cpp.o
 
-home/smhan/Documents/HDB_supergate/comp_lib/tools.i: home/smhan/Documents/HDB_supergate/comp_lib/tools.cpp.i
-.PHONY : home/smhan/Documents/HDB_supergate/comp_lib/tools.i
+home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.i: home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.cpp.i
+.PHONY : home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.i
 
 # target to preprocess a source file
-home/smhan/Documents/HDB_supergate/comp_lib/tools.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDB_supergate_test.dir/build.make CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/HDB_supergate/comp_lib/tools.cpp.i
-.PHONY : home/smhan/Documents/HDB_supergate/comp_lib/tools.cpp.i
+home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDB_supergate_test.dir/build.make CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.cpp.i
+.PHONY : home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.cpp.i
 
-home/smhan/Documents/HDB_supergate/comp_lib/tools.s: home/smhan/Documents/HDB_supergate/comp_lib/tools.cpp.s
-.PHONY : home/smhan/Documents/HDB_supergate/comp_lib/tools.s
+home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.s: home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.cpp.s
+.PHONY : home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.s
 
 # target to generate assembly for a file
-home/smhan/Documents/HDB_supergate/comp_lib/tools.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDB_supergate_test.dir/build.make CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/HDB_supergate/comp_lib/tools.cpp.s
-.PHONY : home/smhan/Documents/HDB_supergate/comp_lib/tools.cpp.s
+home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HDB_supergate_test.dir/build.make CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.cpp.s
+.PHONY : home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.cpp.s
 
 src/main_query_test.o: src/main_query_test.cpp.o
 .PHONY : src/main_query_test.o
@@ -213,12 +213,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... HDB_supergate_test"
-	@echo "... home/smhan/Documents/HDB_supergate/comp_lib/comparator.o"
-	@echo "... home/smhan/Documents/HDB_supergate/comp_lib/comparator.i"
-	@echo "... home/smhan/Documents/HDB_supergate/comp_lib/comparator.s"
-	@echo "... home/smhan/Documents/HDB_supergate/comp_lib/tools.o"
-	@echo "... home/smhan/Documents/HDB_supergate/comp_lib/tools.i"
-	@echo "... home/smhan/Documents/HDB_supergate/comp_lib/tools.s"
+	@echo "... home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.o"
+	@echo "... home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.i"
+	@echo "... home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.s"
+	@echo "... home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.o"
+	@echo "... home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.i"
+	@echo "... home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.s"
 	@echo "... src/main_query_test.o"
 	@echo "... src/main_query_test.i"
 	@echo "... src/main_query_test.s"

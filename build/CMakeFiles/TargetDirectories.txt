@@ -1,7 +1,7 @@
-/home/smhan/Documents/HDB_supergate/build/CMakeFiles/HDB_supergate_lib.dir
-/home/smhan/Documents/HDB_supergate/build/CMakeFiles/edit_cache.dir
-/home/smhan/Documents/HDB_supergate/build/CMakeFiles/rebuild_cache.dir
-/home/smhan/Documents/HDB_supergate/build/CMakeFiles/list_install_components.dir
-/home/smhan/Documents/HDB_supergate/build/CMakeFiles/install.dir
-/home/smhan/Documents/HDB_supergate/build/CMakeFiles/install/local.dir
-/home/smhan/Documents/HDB_supergate/build/CMakeFiles/install/strip.dir
+/home/smhan/Documents/big3_HDB_comparison/build/CMakeFiles/HDB_supergate_lib.dir
+/home/smhan/Documents/big3_HDB_comparison/build/CMakeFiles/edit_cache.dir
+/home/smhan/Documents/big3_HDB_comparison/build/CMakeFiles/rebuild_cache.dir
+/home/smhan/Documents/big3_HDB_comparison/build/CMakeFiles/list_install_components.dir
+/home/smhan/Documents/big3_HDB_comparison/build/CMakeFiles/install.dir
+/home/smhan/Documents/big3_HDB_comparison/build/CMakeFiles/install/local.dir
+/home/smhan/Documents/big3_HDB_comparison/build/CMakeFiles/install/strip.dir

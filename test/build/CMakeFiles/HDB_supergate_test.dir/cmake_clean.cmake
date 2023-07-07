@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/smhan/Documents/HDB_supergate/test/Test_dir/HDB_supergate_test"
-  "/home/smhan/Documents/HDB_supergate/test/Test_dir/HDB_supergate_test.pdb"
-  "CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/HDB_supergate/comp_lib/comparator.cpp.o"
-  "CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/HDB_supergate/comp_lib/comparator.cpp.o.d"
-  "CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/HDB_supergate/comp_lib/tools.cpp.o"
-  "CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/HDB_supergate/comp_lib/tools.cpp.o.d"
+  "/home/smhan/Documents/big3_HDB_comparison/test/Test_dir/HDB_supergate_test"
+  "/home/smhan/Documents/big3_HDB_comparison/test/Test_dir/HDB_supergate_test.pdb"
+  "CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.cpp.o"
+  "CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/big3_HDB_comparison/comp_lib/comparator.cpp.o.d"
+  "CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.cpp.o"
+  "CMakeFiles/HDB_supergate_test.dir/home/smhan/Documents/big3_HDB_comparison/comp_lib/tools.cpp.o.d"
   "CMakeFiles/HDB_supergate_test.dir/src/main_query_test.cpp.o"
   "CMakeFiles/HDB_supergate_test.dir/src/main_query_test.cpp.o.d"
 )

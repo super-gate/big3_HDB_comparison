@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DHELIB_BOOT_THREADS -DHELIB_THREADS
 
-CXX_INCLUDES = -I/home/smhan/Documents/HDB_supergate/test/include -I/home/smhan/Documents/HDB_supergate/test/../lib/include -I/home/smhan/Documents/HDB_supergate/test -isystem /home/smhan/Documents/helib_install/helib_pack/include
+CXX_INCLUDES = -I/home/smhan/Documents/big3_HDB_comparison/test/include -I/home/smhan/Documents/big3_HDB_comparison/test/../lib/include -I/home/smhan/Documents/big3_HDB_comparison/test -isystem /home/smhan/Documents/helib_install/helib_pack/include
 
 CXX_FLAGS = -Wall -O4 -DNDEBUG -g -Wall -std=gnu++1z
 

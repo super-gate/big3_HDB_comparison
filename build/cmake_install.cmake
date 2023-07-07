@@ -1,4 +1,4 @@
-# Install script for directory: /home/smhan/Documents/HDB_supergate
+# Install script for directory: /home/smhan/Documents/big3_HDB_comparison
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,29 +44,29 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/smhan/Documents/HDB_supergate/lib/bin/libHDB_supergate_lib.a")
+   "/home/smhan/Documents/big3_HDB_comparison/lib/bin/libHDB_supergate_lib.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/smhan/Documents/HDB_supergate/lib/bin" TYPE STATIC_LIBRARY FILES "/home/smhan/Documents/HDB_supergate/build/libHDB_supergate_lib.a")
+  file(INSTALL DESTINATION "/home/smhan/Documents/big3_HDB_comparison/lib/bin" TYPE STATIC_LIBRARY FILES "/home/smhan/Documents/big3_HDB_comparison/build/libHDB_supergate_lib.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/smhan/Documents/HDB_supergate/lib/include/HDB_supergate.hpp;/home/smhan/Documents/HDB_supergate/lib/include/HDB_supergate_server.hpp;/home/smhan/Documents/HDB_supergate/lib/include/HDB_supergate_user.hpp")
+   "/home/smhan/Documents/big3_HDB_comparison/lib/include/HDB_supergate.hpp;/home/smhan/Documents/big3_HDB_comparison/lib/include/HDB_supergate_server.hpp;/home/smhan/Documents/big3_HDB_comparison/lib/include/HDB_supergate_user.hpp")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/smhan/Documents/HDB_supergate/lib/include" TYPE FILE FILES
-    "/home/smhan/Documents/HDB_supergate/include/HDB_supergate.hpp"
-    "/home/smhan/Documents/HDB_supergate/include/HDB_supergate_server.hpp"
-    "/home/smhan/Documents/HDB_supergate/include/HDB_supergate_user.hpp"
+  file(INSTALL DESTINATION "/home/smhan/Documents/big3_HDB_comparison/lib/include" TYPE FILE FILES
+    "/home/smhan/Documents/big3_HDB_comparison/include/HDB_supergate.hpp"
+    "/home/smhan/Documents/big3_HDB_comparison/include/HDB_supergate_server.hpp"
+    "/home/smhan/Documents/big3_HDB_comparison/include/HDB_supergate_user.hpp"
     )
 endif()
 
@@ -78,5 +78,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/smhan/Documents/HDB_supergate/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/smhan/Documents/big3_HDB_comparison/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

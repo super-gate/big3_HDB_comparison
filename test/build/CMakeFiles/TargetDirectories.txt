@@ -1,3 +1,3 @@
-/home/smhan/Documents/HDB_supergate/test/build/CMakeFiles/HDB_supergate_test.dir
-/home/smhan/Documents/HDB_supergate/test/build/CMakeFiles/edit_cache.dir
-/home/smhan/Documents/HDB_supergate/test/build/CMakeFiles/rebuild_cache.dir
+/home/smhan/Documents/big3_HDB_comparison/test/build/CMakeFiles/HDB_supergate_test.dir
+/home/smhan/Documents/big3_HDB_comparison/test/build/CMakeFiles/edit_cache.dir
+/home/smhan/Documents/big3_HDB_comparison/test/build/CMakeFiles/rebuild_cache.dir

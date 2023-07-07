@@ -1,5 +1,5 @@
 CMakeFiles/HDB_supergate_test.dir/src/main_query_test.cpp.o: \
- /home/smhan/Documents/HDB_supergate/test/src/main_query_test.cpp \
+ /home/smhan/Documents/big3_HDB_comparison/test/src/main_query_test.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -138,12 +138,11 @@ CMakeFiles/HDB_supergate_test.dir/src/main_query_test.cpp.o: \
  /usr/include/c++/7/bits/basic_ios.tcc \
  /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream \
  /usr/include/c++/7/bits/istream.tcc \
- /home/smhan/Documents/helib_install/helib_pack/include/helib/helib.h \
- /home/smhan/Documents/helib_install/helib_pack/include/helib/version.h \
- /home/smhan/Documents/helib_install/helib_pack/include/helib/DoubleCRT.h \
- /home/smhan/Documents/helib_install/helib_pack/include/helib/zzX.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/vector.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/tools.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/helib/debugging.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/ZZX.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/vec_ZZ.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/ZZ.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/lip.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/ctools.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/config.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/mach_desc.h \
@@ -165,6 +164,8 @@ CMakeFiles/HDB_supergate_test.dir/src/main_query_test.cpp.o: \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/HAVE_AES_NI.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/HAVE_KMA.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/PackageInfo.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/gmp_aux.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/tools.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/new.h \
  /usr/include/c++/7/utility /usr/include/c++/7/bits/stl_relops.h \
  /usr/include/c++/7/cmath /usr/include/math.h \
@@ -193,11 +194,7 @@ CMakeFiles/HDB_supergate_test.dir/src/main_query_test.cpp.o: \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/lzz_pX.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/lzz_p.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/ZZ.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/lip.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/gmp_aux.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/vector.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/SmartPtr.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/thread.h \
  /usr/include/c++/7/atomic /usr/include/c++/7/bits/atomic_base.h \
@@ -209,19 +206,22 @@ CMakeFiles/HDB_supergate_test.dir/src/main_query_test.cpp.o: \
  /usr/include/c++/7/bits/parse_numbers.h \
  /usr/include/c++/7/bits/std_mutex.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/sp_arith.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/lzz_pX.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/lzz_p.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/FFT.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/vec_long.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/LazyTable.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/vec_lzz_p.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/vec_ZZ.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/Lazy.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/mat_lzz_p.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/matrix.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/vec_vec_lzz_p.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/GF2X.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/WordVector.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/vec_GF2.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/GF2.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/ZZ_pX.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/ZZ_p.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/ZZVec.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/vec_ZZ_p.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/mat_ZZ_p.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/vec_vec_ZZ_p.h \
  /home/smhan/Documents/helib_install/helib_pack/include/helib/NumbTh.h \
  /usr/include/c++/7/algorithm /usr/include/c++/7/bits/stl_algo.h \
  /usr/include/c++/7/bits/algorithmfwd.h \
@@ -260,20 +260,17 @@ CMakeFiles/HDB_supergate_test.dir/src/main_query_test.cpp.o: \
  /usr/include/c++/7/bits/shared_ptr_atomic.h \
  /usr/include/c++/7/backward/auto_ptr.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/version.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/ZZX.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/ZZ_pX.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/ZZ_p.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/ZZVec.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/vec_ZZ_p.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/mat_ZZ_p.h \
- /home/smhan/Documents/helib_install/helib_pack/include/NTL/vec_vec_ZZ_p.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/xdouble.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/mat_GF2.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/vec_vec_GF2.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/vec_GF2.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/WordVector.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/GF2.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/mat_GF2E.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/vec_vec_GF2E.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/vec_GF2E.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/GF2E.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/NTL/GF2X.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/GF2XFactoring.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/pair_GF2X_long.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/pair.h \
@@ -289,6 +286,10 @@ CMakeFiles/HDB_supergate_test.dir/src/main_query_test.cpp.o: \
  /home/smhan/Documents/helib_install/helib_pack/include/helib/assertions.h \
  /home/smhan/Documents/helib_install/helib_pack/include/helib/exceptions.h \
  /home/smhan/Documents/helib_install/helib_pack/include/helib/apiAttributes.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/helib/helib.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/helib/version.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/helib/DoubleCRT.h \
+ /home/smhan/Documents/helib_install/helib_pack/include/helib/zzX.h \
  /home/smhan/Documents/helib_install/helib_pack/include/helib/IndexMap.h \
  /usr/include/c++/7/unordered_map /usr/include/c++/7/bits/hashtable.h \
  /usr/include/c++/7/bits/hashtable_policy.h \
@@ -332,16 +333,16 @@ CMakeFiles/HDB_supergate_test.dir/src/main_query_test.cpp.o: \
  /usr/include/c++/7/numeric /usr/include/c++/7/bits/stl_numeric.h \
  /home/smhan/Documents/helib_install/helib_pack/include/helib/PolyMod.h \
  /home/smhan/Documents/helib_install/helib_pack/include/helib/PolyModRing.h \
- /home/smhan/Documents/HDB_supergate/test/src/../../comp_lib/comparator.h \
+ /home/smhan/Documents/big3_HDB_comparison/test/src/../../comp_lib/comparator.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/mat_ZZ.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/vec_vec_ZZ.h \
- /home/smhan/Documents/HDB_supergate/test/../lib/include/HDB_supergate.hpp \
- /home/smhan/Documents/HDB_supergate/test/../lib/include/HDB_supergate_server.hpp \
- /home/smhan/Documents/HDB_supergate/test/../lib/include/HDB_supergate.hpp \
- /home/smhan/Documents/HDB_supergate/test/../comp_lib/comparator.h \
- /home/smhan/Documents/HDB_supergate/test/../comp_lib/tools.h \
+ /home/smhan/Documents/big3_HDB_comparison/test/../lib/include/HDB_supergate.hpp \
+ /home/smhan/Documents/big3_HDB_comparison/test/../lib/include/HDB_supergate_server.hpp \
+ /home/smhan/Documents/big3_HDB_comparison/test/../lib/include/HDB_supergate.hpp \
+ /home/smhan/Documents/big3_HDB_comparison/test/../comp_lib/comparator.h \
+ /home/smhan/Documents/big3_HDB_comparison/test/../comp_lib/tools.h \
  /home/smhan/Documents/helib_install/helib_pack/include/helib/polyEval.h \
- /home/smhan/Documents/HDB_supergate/test/../lib/include/HDB_supergate_user.hpp \
+ /home/smhan/Documents/big3_HDB_comparison/test/../lib/include/HDB_supergate_user.hpp \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/ZZ_pE.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/mat_ZZ_pE.h \
  /home/smhan/Documents/helib_install/helib_pack/include/NTL/vec_vec_ZZ_pE.h \

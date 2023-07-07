@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <iostream>
+#include <helib/debugging.h>
+
 
 //#include <math>
 
@@ -49,8 +51,8 @@ int main() {
                     .scale(STD128_HDB.scale)
                     .build();
     */
-    const Context contx = MakeBGVContext(STD128_HDB);
-    //const Context contx = MakeBGVContext(TOY_HDB);
+    // const Context contx = MakeBGVContext(STD128_HDB);
+    const Context contx = MakeBGVContext(TOY_HDB);
     cout << "Q size: " << contx.logOfProduct(contx.getCtxtPrimes())/log(2.0) << endl;
     cout << "Q*P size: " << contx.logOfProduct(contx.fullPrimes())/log(2.0) << endl;
     cout << "Security: " << contx.securityLevel() << endl;
@@ -99,7 +101,7 @@ int main() {
 	// make public key
 	PubKey public_key(secret_key);
 	
-	CircuitType type = UNI; //UNI or BI
+	CircuitType type = BI; //UNI or BI
 	
 	Comparator comparator(contx, type, TOY_HDB.d, TOY_HDB.expansion_len, public_key, false); // secret key deleted. only public key remained
 	const EncryptedArray& ea = comparator.m_context.getEA();// erase!!
@@ -109,7 +111,7 @@ int main() {
     USER user = USER(comparator, secret_key); //pass secret key only to user
 	/*SERVER SIDE, Preparing DBs */   
     SERVER server = SERVER(comparator);
-	std::string db_dir = "db.txt";
+	std::string db_dir = "db2.txt";
     long unsigned num_db_element;
     long unsigned num_db_category;
     long unsigned max_element;
@@ -202,6 +204,17 @@ int main() {
 	less_vector = server.less_vector(); 
 	less_result = server.result_less(); 
 	equal_vector = server.equal_vector();
+	for (auto& ctxt: equal_vector)
+	{
+		vector<ZZX> ptxt;
+		contx.getView().decrypt(ctxt, secret_key, ptxt);
+		for (auto& zzx: ptxt)
+		{
+			printZZX(cout, zzx, contx.getOrdP());
+            cout << ", ";
+		}
+		cout << endl;
+	}
 	equal_result = server.result_equal();
 	Row = server.row();
 	Category = server.category();

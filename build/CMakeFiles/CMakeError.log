@@ -1,25 +1,25 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/smhan/Documents/HDB_supergate/build/CMakeFiles/CMakeScratch/TryCompile-MSQIzB
+Change Dir: /home/smhan/Documents/big3_HDB_comparison/build/CMakeFiles/CMakeScratch/TryCompile-sF61af
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_22075/fast && /usr/bin/make  -f CMakeFiles/cmTC_22075.dir/build.make CMakeFiles/cmTC_22075.dir/build
-make[1]: Entering directory '/home/smhan/Documents/HDB_supergate/build/CMakeFiles/CMakeScratch/TryCompile-MSQIzB'
-Building C object CMakeFiles/cmTC_22075.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -Wall  -o CMakeFiles/cmTC_22075.dir/src.c.o -c /home/smhan/Documents/HDB_supergate/build/CMakeFiles/CMakeScratch/TryCompile-MSQIzB/src.c
-Linking C executable cmTC_22075
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22075.dir/link.txt --verbose=1
-/usr/bin/cc -Wall  CMakeFiles/cmTC_22075.dir/src.c.o -o cmTC_22075 
-CMakeFiles/cmTC_22075.dir/src.c.o: In function `main':
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9a54b/fast && /usr/bin/make  -f CMakeFiles/cmTC_9a54b.dir/build.make CMakeFiles/cmTC_9a54b.dir/build
+make[1]: Entering directory '/home/smhan/Documents/big3_HDB_comparison/build/CMakeFiles/CMakeScratch/TryCompile-sF61af'
+Building C object CMakeFiles/cmTC_9a54b.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -Wall  -o CMakeFiles/cmTC_9a54b.dir/src.c.o -c /home/smhan/Documents/big3_HDB_comparison/build/CMakeFiles/CMakeScratch/TryCompile-sF61af/src.c
+Linking C executable cmTC_9a54b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a54b.dir/link.txt --verbose=1
+/usr/bin/cc -Wall  CMakeFiles/cmTC_9a54b.dir/src.c.o -o cmTC_9a54b 
+CMakeFiles/cmTC_9a54b.dir/src.c.o: In function `main':
 src.c:(.text+0x3e): undefined reference to `pthread_create'
 src.c:(.text+0x4a): undefined reference to `pthread_detach'
 src.c:(.text+0x56): undefined reference to `pthread_cancel'
 src.c:(.text+0x67): undefined reference to `pthread_join'
 src.c:(.text+0x7b): undefined reference to `pthread_atfork'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_22075.dir/build.make:98: recipe for target 'cmTC_22075' failed
-make[1]: *** [cmTC_22075] Error 1
-make[1]: Leaving directory '/home/smhan/Documents/HDB_supergate/build/CMakeFiles/CMakeScratch/TryCompile-MSQIzB'
-Makefile:127: recipe for target 'cmTC_22075/fast' failed
-make: *** [cmTC_22075/fast] Error 2
+CMakeFiles/cmTC_9a54b.dir/build.make:98: recipe for target 'cmTC_9a54b' failed
+make[1]: *** [cmTC_9a54b] Error 1
+make[1]: Leaving directory '/home/smhan/Documents/big3_HDB_comparison/build/CMakeFiles/CMakeScratch/TryCompile-sF61af'
+Makefile:127: recipe for target 'cmTC_9a54b/fast' failed
+make: *** [cmTC_9a54b/fast] Error 2
 
 
 Source file was:
@@ -45,22 +45,22 @@ int main(void)
 
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/smhan/Documents/HDB_supergate/build/CMakeFiles/CMakeScratch/TryCompile-OkmVbk
+Change Dir: /home/smhan/Documents/big3_HDB_comparison/build/CMakeFiles/CMakeScratch/TryCompile-XhdgSE
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_c1859/fast && /usr/bin/make  -f CMakeFiles/cmTC_c1859.dir/build.make CMakeFiles/cmTC_c1859.dir/build
-make[1]: Entering directory '/home/smhan/Documents/HDB_supergate/build/CMakeFiles/CMakeScratch/TryCompile-OkmVbk'
-Building C object CMakeFiles/cmTC_c1859.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_c1859.dir/CheckFunctionExists.c.o -c /home/smhan/Documents/HDB_supergate/build/CMakeFiles/CMakeScratch/TryCompile-OkmVbk/CheckFunctionExists.c
-Linking C executable cmTC_c1859
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1859.dir/link.txt --verbose=1
-/usr/bin/cc -Wall -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_c1859.dir/CheckFunctionExists.c.o -o cmTC_c1859  -lpthreads 
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7cad1/fast && /usr/bin/make  -f CMakeFiles/cmTC_7cad1.dir/build.make CMakeFiles/cmTC_7cad1.dir/build
+make[1]: Entering directory '/home/smhan/Documents/big3_HDB_comparison/build/CMakeFiles/CMakeScratch/TryCompile-XhdgSE'
+Building C object CMakeFiles/cmTC_7cad1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_7cad1.dir/CheckFunctionExists.c.o -c /home/smhan/Documents/big3_HDB_comparison/build/CMakeFiles/CMakeScratch/TryCompile-XhdgSE/CheckFunctionExists.c
+Linking C executable cmTC_7cad1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cad1.dir/link.txt --verbose=1
+/usr/bin/cc -Wall -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_7cad1.dir/CheckFunctionExists.c.o -o cmTC_7cad1  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_c1859.dir/build.make:98: recipe for target 'cmTC_c1859' failed
-make[1]: *** [cmTC_c1859] Error 1
-make[1]: Leaving directory '/home/smhan/Documents/HDB_supergate/build/CMakeFiles/CMakeScratch/TryCompile-OkmVbk'
-Makefile:127: recipe for target 'cmTC_c1859/fast' failed
-make: *** [cmTC_c1859/fast] Error 2
+CMakeFiles/cmTC_7cad1.dir/build.make:98: recipe for target 'cmTC_7cad1' failed
+make[1]: *** [cmTC_7cad1] Error 1
+make[1]: Leaving directory '/home/smhan/Documents/big3_HDB_comparison/build/CMakeFiles/CMakeScratch/TryCompile-XhdgSE'
+Makefile:127: recipe for target 'cmTC_7cad1/fast' failed
+make: *** [cmTC_7cad1/fast] Error 2
 
 
 
